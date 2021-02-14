@@ -110,8 +110,21 @@
   line-height: 1.5;
 }
 
+.experienced_list {
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.experienced_list > li {
+  margin-bottom: 0.5rem;
+}
+
+
 .logo {
-  height: 1em;
+  height: 3em;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 @media (max-width: 600px) {
