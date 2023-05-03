@@ -35,3 +35,4 @@ yarn-error.log*
 /.idea/vcs.xml
 /.idea/portfolio.iml
 /.idea/modules.xml
+/yarn.lock
