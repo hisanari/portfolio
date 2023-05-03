@@ -7,11 +7,11 @@ export default function Home() {
         <title>Hisanari Maezawa</title>
       </Head>
 
-      <main className="grid place-items-center">
+      <main className="grid place-items-center px-6">
         <div className='my-6'>
           <h1 className="text-2xl font-bold">Hisanari Maezawa</h1>
         </div>
-        <div className="w-1/2 my-3">
+        <div className="md:w-1/2 my-3">
           <h2 className="text-xl font-bold">自己紹介</h2>
           <div className='mx-2'>
             <p>
@@ -24,7 +24,7 @@ export default function Home() {
             </p>
           </div>
        </div>
-        <div className='w-1/2 my-3'>
+        <div className='md:w-1/2 my-3'>
           <h2 className="text-xl font-bold">開発経験</h2>
           <div className='mx-2'>
             <ul className='list-disc list-inside'>
@@ -36,7 +36,7 @@ export default function Home() {
             </ul> 
           </div>
        </div>
-        <div className='w-1/2 my-3'>
+        <div className='md:w-1/2 my-3'>
           <h2 className="text-xl font-bold">経験言語・フレームワーク・ツール</h2>
           <div className='mx-2'>
              <ul className='list-disc list-inside'>
@@ -48,7 +48,7 @@ export default function Home() {
             </ul>
           </div>
        </div>
-        <div className='w-1/2 my-3'>
+        <div className='md:w-1/2 my-3'>
           <h2 className="text-xl font-bold">好きなこと</h2>
           <div className='mx-2'>
             <p>お酒/音楽を聴くこと(90年代)/ギターを弾くこと</p>
